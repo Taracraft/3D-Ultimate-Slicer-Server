@@ -1,0 +1,4 @@
+package/* -text
+README.md text eol=lf
+DELIVERY-MANIFEST.json text eol=lf
+.gitattributes -text
