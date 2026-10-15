@@ -95,10 +95,10 @@
       "source_path": "Slicer-Server/ENGINE_LAYOUT.md"
     },
     {
-      "bytes": 4137,
+      "bytes": 5182,
       "mode": "100644",
       "path": "Slicer-Server/ENGINE_PROVENANCE.md",
-      "sha256": "b583cf77512d7a40e8504c2234eda6ac9c85bfe4c3ee57b44d60b33afb555628",
+      "sha256": "c5ebc145315ebb36338725ce75d43f29cbcba220a9f50591143e6da53f19ed1f",
       "source_path": "Slicer-Server/ENGINE_PROVENANCE.md"
     },
     {
@@ -165,10 +165,10 @@
       "source_path": "Slicer-Server/LINUX_TEST_SERVER_RUNBOOK.md"
     },
     {
-      "bytes": 3258,
+      "bytes": 3766,
       "mode": "100644",
       "path": "Slicer-Server/LIVE_ENGINE_INVENTORY.md",
-      "sha256": "ea4b3d3b2c91d0f110ff6ccdcd5a718a3c25bd2f290f108ee030635132c25352",
+      "sha256": "db9866d14fd1cfb70feb35a6c8e7386632bf6ad547d129e95ec419b0b87bdb5a",
       "source_path": "Slicer-Server/LIVE_ENGINE_INVENTORY.md"
     },
     {
@@ -963,10 +963,10 @@
       "source_path": "tests/test_studio_engine_catalog.py"
     },
     {
-      "bytes": 2628,
+      "bytes": 3054,
       "mode": "100644",
       "path": "tests/test_studio_engine_provenance.py",
-      "sha256": "3608a09dc66d46e5924d226ca4049bf1573d5e01f4277fadf5fce4cf3ee5ce96",
+      "sha256": "04b6301890b2e3d3c1c1713ae61956891d4d25bda13ba1ec1e6cbed8173c4530",
       "source_path": "tests/test_studio_engine_provenance.py"
     },
     {
