@@ -11,10 +11,10 @@
       "source_path": null
     },
     {
-      "bytes": 1694,
+      "bytes": 1696,
       "mode": "100644",
       "path": ".github/workflows/slicer-source-contract.yml",
-      "sha256": "9c8c197781eb50b7b36ad197481359cb6771177d0cee997999cd5726834c409c",
+      "sha256": "e780726cf14262fcff61601927eb34542bdaf385b777d69088b0eb887b277fdd",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -494,10 +494,10 @@
       "source_path": "Slicer-Server/restricted_installer.py"
     },
     {
-      "bytes": 1694,
+      "bytes": 1696,
       "mode": "100644",
       "path": "Slicer-Server/slicer-source-contract.yml",
-      "sha256": "9c8c197781eb50b7b36ad197481359cb6771177d0cee997999cd5726834c409c",
+      "sha256": "e780726cf14262fcff61601927eb34542bdaf385b777d69088b0eb887b277fdd",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -1096,10 +1096,10 @@
       "source_path": "tests/test_studio_restricted_installer.py"
     },
     {
-      "bytes": 2343,
+      "bytes": 2747,
       "mode": "100644",
       "path": "tests/test_studio_slicer_repository.py",
-      "sha256": "b7881010b09b91b133b1a197e51d387aa842fbac0d911f9ca32d08a0f285eea1",
+      "sha256": "023ffe2f2c2ba1f826ad0afb4ad02e56901044f5d61f8886edabd6687ac07922",
       "source_path": "tests/test_studio_slicer_repository.py"
     },
     {
