@@ -11,10 +11,10 @@
       "source_path": null
     },
     {
-      "bytes": 1696,
+      "bytes": 9104,
       "mode": "100644",
       "path": ".github/workflows/slicer-source-contract.yml",
-      "sha256": "e780726cf14262fcff61601927eb34542bdaf385b777d69088b0eb887b277fdd",
+      "sha256": "e979eb6c0030d52d1ff8b76a44e67f60373d4a822f3b07614026780e0e02525c",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -60,10 +60,10 @@
       "source_path": "Slicer-Server/BAMBU_BUILD_REFERENCE.json"
     },
     {
-      "bytes": 11393,
+      "bytes": 13502,
       "mode": "100644",
       "path": "Slicer-Server/CONTAINER_TESTING.md",
-      "sha256": "5a4d2e0410c1693b9536e7e2c17511c08fa3779bf15525a8a3f6914e0207c8c0",
+      "sha256": "84b3799bc0604e00051afcc1fc7c1000efea4f201c7d32db23160c3ca77c85d5",
       "source_path": "Slicer-Server/CONTAINER_TESTING.md"
     },
     {
@@ -305,6 +305,13 @@
       "source_path": "Slicer-Server/RUNTIME_PERMISSIONS.md"
     },
     {
+      "bytes": 744,
+      "mode": "100644",
+      "path": "Slicer-Server/TARGET_BASE_REFERENCE.json",
+      "sha256": "3947bf10b1527c55b48a5640bd3f5c035ae8cd990789fa99408c8b68e05a880c",
+      "source_path": "Slicer-Server/TARGET_BASE_REFERENCE.json"
+    },
+    {
       "bytes": 3565,
       "mode": "100644",
       "path": "Slicer-Server/TARGET_IMAGE_REFERENCE.json",
@@ -326,10 +333,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 14667,
+      "bytes": 14764,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "1d54a52b0b55581ac09618296532cc80e07d2806d387e7dfa2b5c49ebb5124bf",
+      "sha256": "7a6493a1379a62c404298c3c60860c345ac7fdf47c3e8a1b7794ab8768749762",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -529,10 +536,10 @@
       "source_path": "Slicer-Server/restricted_installer.py"
     },
     {
-      "bytes": 1696,
+      "bytes": 9104,
       "mode": "100644",
       "path": "Slicer-Server/slicer-source-contract.yml",
-      "sha256": "e780726cf14262fcff61601927eb34542bdaf385b777d69088b0eb887b277fdd",
+      "sha256": "e979eb6c0030d52d1ff8b76a44e67f60373d4a822f3b07614026780e0e02525c",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -1040,6 +1047,13 @@
       "source_path": "tests/test_studio_host_storage.py"
     },
     {
+      "bytes": 8071,
+      "mode": "100644",
+      "path": "tests/test_studio_image_build_pipeline.py",
+      "sha256": "ee465978c2460e865fcf4c2663314e7b477db3b927b5e0d53317723fc108ba19",
+      "source_path": "tests/test_studio_image_build_pipeline.py"
+    },
+    {
       "bytes": 8797,
       "mode": "100644",
       "path": "tests/test_studio_installer_handoff.py",
@@ -1175,10 +1189,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 167,
+  "payload_files": 169,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 160
+  "source_paths": 162
 }
