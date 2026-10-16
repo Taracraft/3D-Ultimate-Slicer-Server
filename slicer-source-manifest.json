@@ -32,10 +32,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 8556,
+      "bytes": 8505,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "619c2ca14fe24e8dfc1d2dde021e5ef5b9f5d5cc140b7017441188a88cbbf50d",
+      "sha256": "b9fe2c8dbfd8d675e3482c9dc2ed9f6c3332d7e0f457707949c0bdf594e3f078",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -74,10 +74,10 @@
       "source_path": "Slicer-Server/DATA_PERSISTENCE.md"
     },
     {
-      "bytes": 5292,
+      "bytes": 5704,
       "mode": "100644",
       "path": "Slicer-Server/DOCKER_QUICKSTART.md",
-      "sha256": "577c01ce297d86b041b4ff4f8542840e40e3f09b28563f6d30193bc0f6c4e126",
+      "sha256": "147de3a68fbff71002d1bd3faa753c5190aee36fcddc9be425b933c5023ccf99",
       "source_path": "Slicer-Server/DOCKER_QUICKSTART.md"
     },
     {
@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/LICENSE"
     },
     {
-      "bytes": 12944,
+      "bytes": 13394,
       "mode": "100644",
       "path": "Slicer-Server/LINUX_TEST_SERVER_RUNBOOK.md",
-      "sha256": "bc36f4155c527eb0c6df3f5e349ae465e0d4d2978b8ed5500b1300f3839e7218",
+      "sha256": "a8cc37f61c34061d6a6d901943b260d74b6dd691bc9b4169a246dddd9909c6a3",
       "source_path": "Slicer-Server/LINUX_TEST_SERVER_RUNBOOK.md"
     },
     {
@@ -256,11 +256,18 @@
       "source_path": "Slicer-Server/PROFILE_SOURCE_BUNDLE.json"
     },
     {
-      "bytes": 17889,
+      "bytes": 18426,
       "mode": "100644",
       "path": "Slicer-Server/README.md",
-      "sha256": "92c863d81b766950c6b584818022b54a488e0a3b83cbfada40fa241ce596ece4",
+      "sha256": "9b6779e8babe10397a124a552762f5f38f3a795f00df8235237004ba02dc4687",
       "source_path": "Slicer-Server/README.md"
+    },
+    {
+      "bytes": 7243,
+      "mode": "100644",
+      "path": "Slicer-Server/RELEASE_STATUS.md",
+      "sha256": "a0390128d48bdb204e03ace661caea46220ca2447bdb95c689ac4c3e118f3016",
+      "source_path": "Slicer-Server/RELEASE_STATUS.md"
     },
     {
       "bytes": 3715,
@@ -277,10 +284,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 8556,
+      "bytes": 8505,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "619c2ca14fe24e8dfc1d2dde021e5ef5b9f5d5cc140b7017441188a88cbbf50d",
+      "sha256": "b9fe2c8dbfd8d675e3482c9dc2ed9f6c3332d7e0f457707949c0bdf594e3f078",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -340,10 +347,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 14988,
+      "bytes": 15077,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "ac879af211a86804473283d1ba7b54086a1926f6b87a99c5ab282f3a0e2cded0",
+      "sha256": "be385b2673dbe15f25368fdfce1f2dffd4d6c88759efdebbc0e1870e02c2c034",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -634,10 +641,10 @@
       "source_path": "Slicer-Server/wiki/Home-Assistant.md"
     },
     {
-      "bytes": 1399,
+      "bytes": 1804,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Home.md",
-      "sha256": "0280712c5b3af0e5d4ae4ffe3e3ed5fe4726f1e5068c634f46fae7cb9b431bf1",
+      "sha256": "087e1a2056362ed4a17b00e16b814c928b11a30e1a8725352ee45d1d38b24bf6",
       "source_path": "Slicer-Server/wiki/Home.md"
     },
     {
@@ -662,10 +669,10 @@
       "source_path": "Slicer-Server/wiki/Quellumfang.md"
     },
     {
-      "bytes": 6310,
+      "bytes": 5794,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Release-Abnahme.md",
-      "sha256": "3f929ef9e30ace3ea37fc77adcff05d17ae5544bb7f004ac8590f96b88716d67",
+      "sha256": "688c002de9281d42b0a142d560f5611d0fd8c7d121ee5866bf131384dc9eac28",
       "source_path": "Slicer-Server/wiki/Release-Abnahme.md"
     },
     {
@@ -1194,6 +1201,13 @@
       "source_path": "tests/test_studio_profile_sources.py"
     },
     {
+      "bytes": 6088,
+      "mode": "100644",
+      "path": "tests/test_studio_release_documentation.py",
+      "sha256": "ecd9a03a3ee8a57d59a3677a16d564a48b3f34545b28066d9c6cb62e117e2407",
+      "source_path": "tests/test_studio_release_documentation.py"
+    },
+    {
       "bytes": 24115,
       "mode": "100644",
       "path": "tests/test_studio_restricted_installer.py",
@@ -1224,10 +1238,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 174,
+  "payload_files": 176,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 167
+  "source_paths": 169
 }
