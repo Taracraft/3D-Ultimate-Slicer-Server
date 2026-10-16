@@ -11,10 +11,10 @@
       "source_path": null
     },
     {
-      "bytes": 9104,
+      "bytes": 9703,
       "mode": "100644",
       "path": ".github/workflows/slicer-source-contract.yml",
-      "sha256": "e979eb6c0030d52d1ff8b76a44e67f60373d4a822f3b07614026780e0e02525c",
+      "sha256": "3f87e8ccf0d8476a487d519e7ef448f6ecaf5a5f74cefdaadf9e95ae1124bfa3",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -149,6 +149,13 @@
       "path": "Slicer-Server/HOST_STORAGE.md",
       "sha256": "f80f244f6d46c20c78123d1d50a37b05285ccaca2b424340cd4a79801f57d747",
       "source_path": "Slicer-Server/HOST_STORAGE.md"
+    },
+    {
+      "bytes": 6020,
+      "mode": "100644",
+      "path": "Slicer-Server/IMAGE_EVIDENCE.md",
+      "sha256": "bb86cb9a401396af3f59c9d217d50889a097e26e24a6bbcc6d1fe7c4b2acf785",
+      "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
       "bytes": 5497,
@@ -333,10 +340,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 14764,
+      "bytes": 14892,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "7a6493a1379a62c404298c3c60860c345ac7fdf47c3e8a1b7794ab8768749762",
+      "sha256": "2815957914f3c973f2675689d025ecfe87bff01ff5f08bb9037d5f4c3e3e1433",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -536,10 +543,10 @@
       "source_path": "Slicer-Server/restricted_installer.py"
     },
     {
-      "bytes": 9104,
+      "bytes": 9703,
       "mode": "100644",
       "path": "Slicer-Server/slicer-source-contract.yml",
-      "sha256": "e979eb6c0030d52d1ff8b76a44e67f60373d4a822f3b07614026780e0e02525c",
+      "sha256": "3f87e8ccf0d8476a487d519e7ef448f6ecaf5a5f74cefdaadf9e95ae1124bfa3",
       "source_path": "Slicer-Server/slicer-source-contract.yml"
     },
     {
@@ -548,6 +555,13 @@
       "path": "Slicer-Server/target_image_sbom.py",
       "sha256": "472c99b309c37c01886543a53ec18305b0918348fbb51d214ff2d034390b33ec",
       "source_path": "Slicer-Server/target_image_sbom.py"
+    },
+    {
+      "bytes": 18468,
+      "mode": "100644",
+      "path": "Slicer-Server/verify_image_evidence.py",
+      "sha256": "2ac6976f116849a5ba288f87d0f3177595c2cbd925265446854442d6fed1bfc4",
+      "source_path": "Slicer-Server/verify_image_evidence.py"
     },
     {
       "bytes": 10658,
@@ -1054,6 +1068,13 @@
       "source_path": "tests/test_studio_image_build_pipeline.py"
     },
     {
+      "bytes": 21960,
+      "mode": "100644",
+      "path": "tests/test_studio_image_evidence.py",
+      "sha256": "7e350309d43e7ccda176b813a2c9e35745ed40103389fe4ee3bfe5e2e4dc9fa9",
+      "source_path": "tests/test_studio_image_evidence.py"
+    },
+    {
       "bytes": 8797,
       "mode": "100644",
       "path": "tests/test_studio_installer_handoff.py",
@@ -1189,10 +1210,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 169,
+  "payload_files": 172,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 162
+  "source_paths": 165
 }

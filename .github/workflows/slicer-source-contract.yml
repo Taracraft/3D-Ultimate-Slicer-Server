@@ -149,6 +149,18 @@ jobs:
           print(json.dumps(result, sort_keys=True))
           PY
           python Slicer-Server/build_repository.py --verify .
+      - name: Verify aggregate image and source binding before upload
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED_MANIFEST="$(sha256sum slicer-source-manifest.json)"
+          python Slicer-Server/verify_image_evidence.py \
+            --source-root "$PWD" \
+            --evidence "$IMAGE_BUILD_ROOT/evidence" \
+            --expected-commit "$GITHUB_SHA" \
+            --expected-manifest-sha256 "${EXPECTED_MANIFEST%% *}" \
+            > "$IMAGE_BUILD_ROOT/image-evidence-verification.json"
+          cat "$IMAGE_BUILD_ROOT/image-evidence-verification.json"
       - name: Retain source-bound image evidence only
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7, reviewed immutable commit
         with:
