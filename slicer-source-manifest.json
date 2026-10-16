@@ -319,10 +319,10 @@
       "source_path": "Slicer-Server/RUNTIME_PERMISSIONS.md"
     },
     {
-      "bytes": 9217,
+      "bytes": 14193,
       "mode": "100644",
       "path": "Slicer-Server/SUPERVISOR_APP_SETUP.md",
-      "sha256": "a892bab019a12860afc4e3715a3a8e30a86bc8ccabf0a87b74b26a9b8cd6038c",
+      "sha256": "82a3c61d324ad081d5a967106473c9553d5490ea5681c1266291c02df5da08c8",
       "source_path": "Slicer-Server/SUPERVISOR_APP_SETUP.md"
     },
     {
