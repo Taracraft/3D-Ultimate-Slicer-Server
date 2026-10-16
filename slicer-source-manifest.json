@@ -165,10 +165,10 @@
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
-      "bytes": 5376,
+      "bytes": 5902,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLER_HOST_CHANNEL_DECISION.md",
-      "sha256": "897a7016e746d4f727b0661fbc64a09c5b1de423eedf0ba9af2c87fea9513450",
+      "sha256": "d334da3c05c0e79241f7da8ab84a70b8997bef8a4275ba50c9d7f71012d293ff",
       "source_path": "Slicer-Server/INSTALLER_HOST_CHANNEL_DECISION.md"
     },
     {
@@ -319,6 +319,13 @@
       "source_path": "Slicer-Server/RUNTIME_PERMISSIONS.md"
     },
     {
+      "bytes": 9217,
+      "mode": "100644",
+      "path": "Slicer-Server/SUPERVISOR_APP_SETUP.md",
+      "sha256": "a892bab019a12860afc4e3715a3a8e30a86bc8ccabf0a87b74b26a9b8cd6038c",
+      "source_path": "Slicer-Server/SUPERVISOR_APP_SETUP.md"
+    },
+    {
       "bytes": 744,
       "mode": "100644",
       "path": "Slicer-Server/TARGET_BASE_REFERENCE.json",
@@ -347,10 +354,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 15077,
+      "bytes": 15122,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "be385b2673dbe15f25368fdfce1f2dffd4d6c88759efdebbc0e1870e02c2c034",
+      "sha256": "b79d257a30a1579f7262d732b1960253f03fde1459df0b3712d91cf48459e20f",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -1238,10 +1245,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 176,
+  "payload_files": 177,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 169
+  "source_paths": 170
 }
