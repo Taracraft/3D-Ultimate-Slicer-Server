@@ -102,10 +102,10 @@
       "source_path": "Slicer-Server/ENGINE_BUNDLE_REFERENCE.json"
     },
     {
-      "bytes": 8815,
+      "bytes": 12596,
       "mode": "100644",
       "path": "Slicer-Server/ENGINE_CATALOG.md",
-      "sha256": "17fe60df8bf6d00ec9f6e0ba5696a052afb1a57de322b4b8797b3a223ef8b4d3",
+      "sha256": "a75d6bb0bda1088db3c507e4e9db5081caa78fa0a9cc105832395f204c4cc1d6",
       "source_path": "Slicer-Server/ENGINE_CATALOG.md"
     },
     {
@@ -340,10 +340,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 14892,
+      "bytes": 14988,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "2815957914f3c973f2675689d025ecfe87bff01ff5f08bb9037d5f4c3e3e1433",
+      "sha256": "ac879af211a86804473283d1ba7b54086a1926f6b87a99c5ab282f3a0e2cded0",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -513,6 +513,13 @@
       "path": "Slicer-Server/pairing_registry.py",
       "sha256": "a783b8830662a008c7727eae8cb6deef78ee8ca90cc2386c2c50519da1cb3af6",
       "source_path": "Slicer-Server/pairing_registry.py"
+    },
+    {
+      "bytes": 9389,
+      "mode": "100644",
+      "path": "Slicer-Server/prepare_catalog_selection.py",
+      "sha256": "99289532e5edc370a2bbf41565e4f6cff983de740857c11a636736d1e9e351ca",
+      "source_path": "Slicer-Server/prepare_catalog_selection.py"
     },
     {
       "bytes": 10504,
@@ -977,6 +984,13 @@
       "source_path": "tests/native_slicer_tls_acceptance.ps1"
     },
     {
+      "bytes": 18989,
+      "mode": "100644",
+      "path": "tests/test_studio_catalog_selection.py",
+      "sha256": "2606e09d092756bf1ef8fc621d85164d1b81036e23bfc6e2662ede9df226967d",
+      "source_path": "tests/test_studio_catalog_selection.py"
+    },
+    {
       "bytes": 5624,
       "mode": "100644",
       "path": "tests/test_studio_clean_host_preflight.py",
@@ -1210,10 +1224,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 172,
+  "payload_files": 174,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 165
+  "source_paths": 167
 }

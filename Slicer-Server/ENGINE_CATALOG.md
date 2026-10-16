@@ -147,3 +147,72 @@ Archiv-/Dateihashes, Groessen, Lizenz- und Profilangaben bleiben erforderlich.
 Alle drei echten Katalogfamilien bleiben pending, bis ihre Paketsaetze
 tatsaechlich bereitstehen. Ein akzeptierter Downloadursprung ist kein
 veroeffentlichtes Artefakt und keine technische oder rechtliche Enginefreigabe.
+
+
+## Dateiauswahl aus vorhandenen Engine-Archiven
+
+`prepare_catalog_selection.py` verbindet das vorhandene Bundlemanifest mit
+dem bestehenden Katalog- und Stagingvertrag. Es baut keine Enginearchive neu,
+veraendert keine Originalmanifeste und schaltet keine Engine im ausgelieferten
+`engine_catalog.json` frei. Die erwartete Manifestpruefsumme muss aus einem
+unabhaengig geprueften Build-/Lieferbeleg kommen.
+
+```sh
+python Slicer-Server/prepare_catalog_selection.py \
+  --manifest bundle-manifest.json \
+  --expected-manifest-sha256 "$MANIFEST_SHA256" \
+  --output /absolute/new/private-selection
+```
+
+Das neue, ausserhalb des Produktquellbaums liegende Ausgabe-Verzeichnis darf
+noch nicht existieren. Es enthaelt nur `file-selection.json`, keinen aktiven
+Installationskatalog. Die Quellbytes werden vor und nach der Ausgabe geprueft.
+Dateinamen, Groessen, Pruefsummen und Ausfuehrungskennzeichen aller Eintraege
+bleiben erhalten. Die Ausgabe enthaelt keine lokalen Wurzelverzeichnisse.
+
+### Cura-Basisdefinition: Rolle statt Archivinhalt korrigieren
+
+Im erfassten Cura-Bestand sind alle861Definitionsdateien als `profiles`
+klassifiziert, obwohl der unveraenderte Katalog getrennt Ressourcen verlangt.
+Die Datei `resources/definitions/fdmprinter.def.json` ist die Basisdefinition
+mit allgemeinen Einstellungen. Ausschliesslich dieser exakte, nichtleere,
+nichtausfuehrbare Eintrag darf von `profiles` nach `resources` abgebildet
+werden. Die Aenderung wird mit Pfad, Ursprung/Ziel, Groesse und SHA protokolliert.
+Bereits passende `resources` bleiben unveraendert; andere Rollen, eine fehlende
+Basisdefinition oder das Fehlen weiterer Profile werden abgewiesen.
+
+Bambu- und Prusa-Rollen bleiben unveraendert. Alle drei Familien verwenden
+dieselben vorhandenen Bundle-, Katalog-Datei- und portablen Zielpfadpruefer.
+`bind_release(...)` ergaenzt ausdruecklich bereitgestellte Artefaktmetadaten und
+verwendet den vollstaendigen vorhandenen Katalogverifikator. Version, Herkunft,
+Downloadadresse, Archivpruefsumme und Lizenzdeklaration werden nicht erfunden.
+Der Prusa-OCCT-Vertrag und alle bestehenden Kataloggrenzen bleiben bestehen.
+
+### Anschluss an das vorhandene Staging
+
+Die Katalogauswahl kann das bestehende `prepare_release` verwenden. Das
+urspruengliche `bundle-manifest.json` im Archiv bleibt gewoehnliche, nicht
+ausgewaehlte Metadatei; es wird weder ausgefuehrt noch als Engine-Payload
+installiert. Die ausgewaehlten Nutzdateien werden weiterhin gegen Archiv-
+und Dateihashes geprueft. Rollen in der Auswahl sind installerbezogene
+Metadaten und kein Anlass, das unveraenderte Originalarchiv neu zu packen.
+
+Die Regressionen gehen fuer alle drei Familien mit synthetischen TAR.GZ-
+Archiven durch den unveraenderten Katalog und den echten lokalen Entpacker.
+Sie vergleichen anschliessend die vollstaendigen Nutzdateibytes und pruefen
+den unveraenderten Archivhash sowie `activated=false`/`engine_executed=false`.
+Sie fuehren kein echtes Slicing durch und sind keine Pruefung der realen
+Engine-Binaries. Eine weitere synthetische Matrix bildet861Cura-Definitionen
+auf860Profile plus eine Ressource ab; diese Zahlen sind kein erzeugter
+Auslieferungsnachweis fuer ein Originalarchiv.
+
+### Noch getrennt nachzuweisen
+
+Ein als gueltig erkanntes Dateischema ist weder Archiv- noch Herkunfts-/
+Lizenz- oder Betriebsfreigabe. Die drei vollstaendigen Originalmanifeste
+mussen am zulaessigen lokalen Pruefort gegen ihre unabhaengigen Hashes
+verarbeitet und mit den tatsaechlich veroeffentlichten Artefaktmetadaten
+gebunden werden. Bis dahin bleibt der ausgelieferte Katalog `pending`.
+Die normale Auswahl-CLI meldet deshalb `archive_verified=false`,
+`catalog_updated=false` und `release_approved=false`. Sie kontaktiert
+keinen Host, kein GitHub, keinen Drucker und startet keine Engine.
