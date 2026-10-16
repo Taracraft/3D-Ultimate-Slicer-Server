@@ -46,10 +46,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 303,
+      "bytes": 354,
       "mode": "100644",
       "path": "Slicer-Server/.dockerignore",
-      "sha256": "72fce1d9f32fbd4bc8badcf29ae336a1606e191901432237b3ee8bccf1e556df",
+      "sha256": "e0608562af55c9e2898207bca72df4726673a3cba276e362a0804022a55882df",
       "source_path": "Slicer-Server/.dockerignore"
     },
     {
@@ -60,10 +60,10 @@
       "source_path": "Slicer-Server/BAMBU_BUILD_REFERENCE.json"
     },
     {
-      "bytes": 13502,
+      "bytes": 14369,
       "mode": "100644",
       "path": "Slicer-Server/CONTAINER_TESTING.md",
-      "sha256": "84b3799bc0604e00051afcc1fc7c1000efea4f201c7d32db23160c3ca77c85d5",
+      "sha256": "1b97a6c8e8c14bf0e0e25e77f247b3f916e7630d7fc0d4340f33c7422dad5da6",
       "source_path": "Slicer-Server/CONTAINER_TESTING.md"
     },
     {
@@ -1047,10 +1047,10 @@
       "source_path": "tests/test_studio_host_storage.py"
     },
     {
-      "bytes": 8071,
+      "bytes": 10086,
       "mode": "100644",
       "path": "tests/test_studio_image_build_pipeline.py",
-      "sha256": "ee465978c2460e865fcf4c2663314e7b477db3b927b5e0d53317723fc108ba19",
+      "sha256": "57505185e9ef1290f23552f2a90c8e5b43d67a07fc811448383dedca9f4d3797",
       "source_path": "tests/test_studio_image_build_pipeline.py"
     },
     {

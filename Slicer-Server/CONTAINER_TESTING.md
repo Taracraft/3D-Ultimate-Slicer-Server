@@ -263,3 +263,18 @@ Engine-/Lizenz-/TLS-/Restore- oder Produktivfreigabe. Die eigentliche
 Linux-Neuinstallation bleibt der allerletzte Verifikationstest nach dem
 ansonsten abgeschlossenen Release. Pipeline-Artefakte sind keine
 veroeffentlichten GitHub-Releases.
+
+
+### Reale Buildkorrektur: Docker-Kontextfilter
+
+Der erste echte Imagebau (Commit112e003f, CI38850858897) wurde vor der
+Imagefertigstellung durch den COPY-Schritt gestoppt: Die schon vorhandenen
+Dateien TARGET_IMAGE_REFERENCE.json und target_image_sbom.py fehlten in den
+Ausnahmen der restriktiven .dockerignore-Datei. Der normale Kontextverifikator
+sah sie auf der Festplatte; Docker filterte sie vor COPY aus. Beide exakten
+Dateien sind jetzt zusaetzlich erlaubt. Der deny-all-Standard und alle
+Secret-/Nachbarpfadgrenzen bleiben bestehen. Neue Tests vergleichen alle
+Dockerfile-COPY-Eingaben mit dem bewusst eingeschraenkten Filterdialekt und
+pruefen, dass keine pauschale JSON-/Verzeichnisfreigabe hinzugekommen ist.
+Der fehlgeschlagene Lauf bleibt als solcher erhalten; nur ein nachfolgender
+erfolgreicher Imagebau darf den Bild-/Inventarnachweis abschliessen.

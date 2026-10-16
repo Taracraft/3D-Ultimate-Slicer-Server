@@ -141,5 +141,40 @@ class ImageBuildPipelineTests(unittest.TestCase):
         self.assertLess(self.job.rindex('python Slicer-Server/build_repository.py --verify .'), self.job.index('actions/upload-artifact@'))
 
 
+
+    def test_docker_copy_inputs_survive_explicit_context_filter(self):
+        # This project uses only deny-all followed by exact file/directory
+        # exceptions, not arbitrary ignore globs. Real Docker validates the
+        # complete semantics in the separate hosted image-build job.
+        import shlex
+        ignore = (ROOT / 'Slicer-Server/.dockerignore').read_text().splitlines()
+        self.assertEqual(ignore[0], '**')
+        exceptions = [line[1:] for line in ignore[1:] if line and not line.startswith('#')]
+        self.assertTrue(all(line.startswith('!') for line in ignore[1:] if line and not line.startswith('#')))
+        for name in exceptions:
+            self.assertRegex(name, r'^[A-Za-z0-9_.-]+(?:/|/\*\*)?$')
+        docker = (ROOT / 'Slicer-Server/Dockerfile').read_text(encoding='utf-8-sig')
+        sources = []
+        for line in docker.splitlines():
+            if line.startswith('COPY '):
+                arguments = [item for item in shlex.split(line)[1:] if not item.startswith('--')]
+                self.assertGreaterEqual(len(arguments), 2)
+                sources.extend(arguments[:-1])
+        self.assertGreater(len(sources), 12)
+        for source in sources:
+            with self.subTest(copy_source=source):
+                self.assertIn(source, exceptions)
+                if source.endswith('/'):
+                    self.assertIn(source + '**', exceptions)
+        self.assertIn('TARGET_IMAGE_REFERENCE.json', sources)
+        self.assertIn('target_image_sbom.py', sources)
+
+    def test_context_filter_keeps_private_neighbors_excluded(self):
+        lines = (ROOT / 'Slicer-Server/.dockerignore').read_text().splitlines()
+        self.assertEqual(lines[0], '**')
+        explicit = {line[1:] for line in lines[1:] if line.startswith('!')}
+        self.assertFalse({'*', '**', '*.json', 'config.json', '.env', '.git/', 'credentials.json'} & explicit)
+        self.assertEqual({line for line in explicit if line.endswith('/**')}, {'payload/**', 'licenses/**'})
+
 if __name__ == '__main__':
     unittest.main()
