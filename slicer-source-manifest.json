@@ -88,10 +88,24 @@
       "source_path": "Slicer-Server/Dockerfile"
     },
     {
-      "bytes": 7745,
+      "bytes": 3329,
+      "mode": "100644",
+      "path": "Slicer-Server/ENGINE_BUNDLE_BUILD.md",
+      "sha256": "8d0358fbaf0ab18d69d2acb90a9b3a45de6a0972dc7411c4503d187de528215a",
+      "source_path": "Slicer-Server/ENGINE_BUNDLE_BUILD.md"
+    },
+    {
+      "bytes": 3760,
+      "mode": "100644",
+      "path": "Slicer-Server/ENGINE_BUNDLE_REFERENCE.json",
+      "sha256": "546c4c5dce067dce8b5a349fd275f3ca4ce9cbbb67610e48cc8b905fc8f6badb",
+      "source_path": "Slicer-Server/ENGINE_BUNDLE_REFERENCE.json"
+    },
+    {
+      "bytes": 8815,
       "mode": "100644",
       "path": "Slicer-Server/ENGINE_CATALOG.md",
-      "sha256": "0ac269dc54a6b56eea2eaa6d7c92ceb0f48776a5b22d85b6899c8e1790f05118",
+      "sha256": "17fe60df8bf6d00ec9f6e0ba5696a052afb1a57de322b4b8797b3a223ef8b4d3",
       "source_path": "Slicer-Server/ENGINE_CATALOG.md"
     },
     {
@@ -102,17 +116,17 @@
       "source_path": "Slicer-Server/ENGINE_LAYOUT.md"
     },
     {
-      "bytes": 11296,
+      "bytes": 13237,
       "mode": "100644",
       "path": "Slicer-Server/ENGINE_PROVENANCE.md",
-      "sha256": "60f9137ad8531986a685003aba633d34fdfdd6c70e3bf3297632245cd6a2e52a",
+      "sha256": "142f5f0770fffe42d17b9ea74a4f93ee314b5033b085b3b9727d210d74a20750",
       "source_path": "Slicer-Server/ENGINE_PROVENANCE.md"
     },
     {
-      "bytes": 23417,
+      "bytes": 26685,
       "mode": "100644",
       "path": "Slicer-Server/HA_INSTALLATION_PLAN.md",
-      "sha256": "7381baf186f61d389f50c8187a4a88118b3d19b8e42a626b9d2d4f0d81e8fc61",
+      "sha256": "9e6a530e48c8ed9d6ee3087d4fbe84d35c51d39a967cc8d0a6bdcf1c4f1ed9f9",
       "source_path": "Slicer-Server/HA_INSTALLATION_PLAN.md"
     },
     {
@@ -151,10 +165,10 @@
       "source_path": "Slicer-Server/INSTALLER_HOST_CHANNEL_DECISION.md"
     },
     {
-      "bytes": 10441,
+      "bytes": 13709,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLER_TRANSPORT.md",
-      "sha256": "387c4e98a55417c193d2c2dbb3f806d996d15d2b59995e2fbc18d9dcd54a42c3",
+      "sha256": "302000d933ff96ec8e224a6fe012a8434981a372a0293964814c5d6cfa47ae23",
       "source_path": "Slicer-Server/INSTALLER_TRANSPORT.md"
     },
     {
@@ -207,10 +221,10 @@
       "source_path": "Slicer-Server/PACKAGE_ACTIVATION.md"
     },
     {
-      "bytes": 10143,
+      "bytes": 11109,
       "mode": "100644",
       "path": "Slicer-Server/PACKAGE_STAGING.md",
-      "sha256": "4c4a1b007e1616913b62c47ff291a6a2a278e88b38bb2aaa10fd38ff8476eeac",
+      "sha256": "8deac3c80080aefd895b27f722f526383e30e7745b3321454c3da32e6201d3a9",
       "source_path": "Slicer-Server/PACKAGE_STAGING.md"
     },
     {
@@ -305,10 +319,17 @@
       "source_path": "Slicer-Server/THIRD_PARTY_NOTICES.md"
     },
     {
-      "bytes": 14439,
+      "bytes": 12182,
+      "mode": "100644",
+      "path": "Slicer-Server/build_engine_bundle.py",
+      "sha256": "dae92dde8b457336dcd36bfaa910a17a53c86216f8b7a2ae10f4427d41903fca",
+      "source_path": "Slicer-Server/build_engine_bundle.py"
+    },
+    {
+      "bytes": 14619,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "213f9cbf492088eef5d47718c7062b7a31c3182917171e3c98fbecbe05f52d7c",
+      "sha256": "98833e1f30cedfbc4eb00ae11d3e535d7277855dcdc81a119e9938be1c7ab432",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -389,10 +410,10 @@
       "source_path": "Slicer-Server/engine_catalog.json"
     },
     {
-      "bytes": 12540,
+      "bytes": 12621,
       "mode": "100644",
       "path": "Slicer-Server/engine_catalog.py",
-      "sha256": "e69e1364093bf10cd81ad6e92f9ebe198dc8dc5cf66c8bb265ea47db488ee2d1",
+      "sha256": "10163d32aeea69c78c1d3e190e5adbe1fb4bb6fb0fbe2f971d46b7f75c35a564",
       "source_path": "Slicer-Server/engine_catalog.py"
     },
     {
@@ -977,10 +998,17 @@
       "source_path": "tests/test_studio_docker_lifecycle_integration.py"
     },
     {
-      "bytes": 12559,
+      "bytes": 9110,
+      "mode": "100644",
+      "path": "tests/test_studio_engine_bundle.py",
+      "sha256": "f02bb514effd932828804f3a418cc19569b4c89f4e0aa5079ed671f47896d660",
+      "source_path": "tests/test_studio_engine_bundle.py"
+    },
+    {
+      "bytes": 16084,
       "mode": "100644",
       "path": "tests/test_studio_engine_catalog.py",
-      "sha256": "df4a0e7a2a144f92092153f99c502069c6d411fcd1fdf11c616a5a01ed33548a",
+      "sha256": "724901dafe689da364260630dd91e2cfac7d0fa3ba69e650b45f38dad957adbc",
       "source_path": "tests/test_studio_engine_catalog.py"
     },
     {
@@ -1089,10 +1117,10 @@
       "source_path": "tests/test_studio_package_activation.py"
     },
     {
-      "bytes": 31459,
+      "bytes": 35560,
       "mode": "100644",
       "path": "tests/test_studio_package_staging.py",
-      "sha256": "595b2225a19e43063e3ddc1620beb008fa4f9abc1197436863bae76dcc7a86aa",
+      "sha256": "6a05700b857948e4037ec532eaf53a3b954e97fccd242127b29a4eb54e093970",
       "source_path": "tests/test_studio_package_staging.py"
     },
     {
@@ -1110,10 +1138,10 @@
       "source_path": "tests/test_studio_profile_sources.py"
     },
     {
-      "bytes": 23685,
+      "bytes": 24115,
       "mode": "100644",
       "path": "tests/test_studio_restricted_installer.py",
-      "sha256": "f8922c9b130cf585ae0775e3323074ba6e84d1ee1d2a96e8fa108a09e3688d8f",
+      "sha256": "06b6af7430cf3f3ae420db69579f5011d84da12ada7bcfa327501bc67be9ccba",
       "source_path": "tests/test_studio_restricted_installer.py"
     },
     {
@@ -1140,10 +1168,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 162,
+  "payload_files": 166,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 155
+  "source_paths": 159
 }

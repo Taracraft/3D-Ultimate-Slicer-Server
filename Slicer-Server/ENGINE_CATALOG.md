@@ -128,3 +128,22 @@ Dies erweitert weder die echten Katalogfreigaben noch unterstuetzte
 Archivformate. AppImages werden nicht ausgefuehrt; eine geeignete
 manifestgebundene Archivauswahl muss gesondert kuratiert werden. Alle drei
 ausgelieferten Enginefamilien bleiben pending.
+
+
+## Dediziertes Slicer-Release-Repository (15.10.2026)
+
+Der vorhandene begrenzte Downloadvertrag akzeptiert jetzt auch exakt
+https://github.com/Taracraft/3D-Ultimate-Slicer-Server/releases/download/
+als erste Quelle fuer gepruefte Releaseartefakte. Das Studio-Repository und
+die bisherigen Hersteller-/Debian-Urspruenge bleiben erhalten. Dies ist
+keine Freigabe beliebiger GitHub-Repositories: Owner, Repository, HTTPS
+und Releasepfad bleiben fest; Querys, Zugangsdaten, andere Ports,
+Namensverwechslungen und Traversal sind weiterhin unzulaessig.
+
+Die Herkunft der enthaltenen Engine bleibt unabhaengig an die bisherige
+Hersteller-Quellrevision gebunden. Das eigene Download-Repository darf
+nicht die source_url oder source_revision der Engine ersetzen. Vollstaendige
+Archiv-/Dateihashes, Groessen, Lizenz- und Profilangaben bleiben erforderlich.
+Alle drei echten Katalogfamilien bleiben pending, bis ihre Paketsaetze
+tatsaechlich bereitstehen. Ein akzeptierter Downloadursprung ist kein
+veroeffentlichtes Artefakt und keine technische oder rechtliche Enginefreigabe.
