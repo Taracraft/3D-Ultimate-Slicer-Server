@@ -139,6 +139,7 @@ SOURCE_PATHS = (
     "tests/native_slicer_tls_acceptance.ps1",
     "tests/test_studio_clean_host_preflight.py",
     "tests/test_studio_container_engines.py",
+    "tests/test_studio_engine_image_layout.py",
     "tests/test_studio_container_maintenance.py",
     "tests/test_studio_docker_context.py",
     "tests/test_studio_docker_host_adapter.py",
