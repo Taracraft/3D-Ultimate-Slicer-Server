@@ -39,10 +39,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 8374,
+      "bytes": 8880,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "0c989e4a85909eafc3b959b7e77442f05c9c3c94d52003946477e986d8f982a3",
+      "sha256": "8e029d8d848af910fb8a18b9fbf7ad545249c77a0b0639bb864a629d7049b8ec",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -305,10 +305,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 8374,
+      "bytes": 8880,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "0c989e4a85909eafc3b959b7e77442f05c9c3c94d52003946477e986d8f982a3",
+      "sha256": "8e029d8d848af910fb8a18b9fbf7ad545249c77a0b0639bb864a629d7049b8ec",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -382,10 +382,10 @@
       "source_path": "Slicer-Server/Ultimate_Slicer_Server_Handbuch.pdf"
     },
     {
-      "bytes": 4893,
+      "bytes": 5905,
       "mode": "100644",
       "path": "Slicer-Server/assets/ASSET_NOTICES.md",
-      "sha256": "acd9b0b10563424d4322781c866a4e88c606216a2014019382873efc073f26e5",
+      "sha256": "7f2a005fdd830fe1d2b185ad03e9bbddcfffdaa96e5b63c9cefdf9e604622f16",
       "source_path": "Slicer-Server/assets/ASSET_NOTICES.md"
     },
     {
@@ -403,6 +403,13 @@
       "source_path": "Slicer-Server/assets/taracraft-mark.png"
     },
     {
+      "bytes": 514930,
+      "mode": "100644",
+      "path": "Slicer-Server/assets/ultimate-slicer-server-demo.gif",
+      "sha256": "00cad0e9227e11066b041a743c98dd921e293ef3d3888f00c9e4f589fc0e61e4",
+      "source_path": "Slicer-Server/assets/ultimate-slicer-server-demo.gif"
+    },
+    {
       "bytes": 12182,
       "mode": "100644",
       "path": "Slicer-Server/build_engine_bundle.py",
@@ -410,10 +417,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 16091,
+      "bytes": 16253,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "9b992312c09c4b34a1a7a2aa6bbb21aff3d2aa5b5ea4edfeb754e3fa7d12cb3c",
+      "sha256": "fed03208fc9e6177122bd3c07f20971686b77a64fe1e9c95e4c28d71d293db34",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -623,7 +630,7 @@
       "bytes": 9243,
       "mode": "100644",
       "path": "Slicer-Server/publish_release.py",
-      "sha256": "1314ad8ad5533fb24eeddaf96ef07357352d7faacc4dc17abc0543dbf0bc153f",
+      "sha256": "7bce8e5020b58c468ca19a56eeb052eb63347d38934f6e3d599c662701006cad",
       "source_path": "Slicer-Server/publish_release.py"
     },
     {
@@ -781,10 +788,10 @@
       "source_path": "Slicer-Server/wiki/_Sidebar.md"
     },
     {
-      "bytes": 4893,
+      "bytes": 5905,
       "mode": "100644",
       "path": "assets/ASSET_NOTICES.md",
-      "sha256": "acd9b0b10563424d4322781c866a4e88c606216a2014019382873efc073f26e5",
+      "sha256": "7f2a005fdd830fe1d2b185ad03e9bbddcfffdaa96e5b63c9cefdf9e604622f16",
       "source_path": "Slicer-Server/assets/ASSET_NOTICES.md"
     },
     {
@@ -800,6 +807,13 @@
       "path": "assets/taracraft-mark.png",
       "sha256": "d634ff5a1245ea09099f096f00c782c65386dbcfffd48ed182e59d3a88c8a401",
       "source_path": "Slicer-Server/assets/taracraft-mark.png"
+    },
+    {
+      "bytes": 514930,
+      "mode": "100644",
+      "path": "assets/ultimate-slicer-server-demo.gif",
+      "sha256": "00cad0e9227e11066b041a743c98dd921e293ef3d3888f00c9e4f589fc0e61e4",
+      "source_path": "Slicer-Server/assets/ultimate-slicer-server-demo.gif"
     },
     {
       "bytes": 2223,
@@ -1036,7 +1050,7 @@
       "bytes": 53,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/release.json",
-      "sha256": "34d794f38aae3fb2e27f69108cf48538d133872c54c35ce76500d8c08d23b024",
+      "sha256": "60ff646a555b99610413b8b619d1a051a91a43ca35f0811fe1b9b353a9c1605b",
       "source_path": "packages/ultimate-slicer-server/release.json"
     },
     {
@@ -1385,10 +1399,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 197,
+  "payload_files": 199,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 186
+  "source_paths": 187
 }
