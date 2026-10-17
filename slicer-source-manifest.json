@@ -32,17 +32,17 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 4386,
+      "bytes": 8234,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "c57f7afbe3a70f82d5a9681d81b514043629f42d0938832ee30bd10ae0ac1423",
+      "sha256": "b0a0fe2eac158cd3a67de87cd39136b8727baffc7c0d8eabb742c25d3dd328b2",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
-      "bytes": 1770,
+      "bytes": 2233,
       "mode": "100644",
       "path": "SOURCE_NOTICES.md",
-      "sha256": "82fb0583243006ffa48e423c056756e3f39f6b55ab302dbe5fce9e41625d148d",
+      "sha256": "0cddae0364732a6b1a0535a3674a25c9b9c529cb440f8c560386518a2e3610f9",
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
@@ -51,6 +51,13 @@
       "path": "Slicer-Server/.dockerignore",
       "sha256": "e0608562af55c9e2898207bca72df4726673a3cba276e362a0804022a55882df",
       "source_path": "Slicer-Server/.dockerignore"
+    },
+    {
+      "bytes": 14180,
+      "mode": "100644",
+      "path": "Slicer-Server/API.md",
+      "sha256": "b9349a8227b0a80f51fbb0d42dd65b2aec62477e3a668274ac394e361c922575",
+      "source_path": "Slicer-Server/API.md"
     },
     {
       "bytes": 3958,
@@ -130,6 +137,13 @@
       "source_path": "Slicer-Server/ENGINE_PROVENANCE.md"
     },
     {
+      "bytes": 42435,
+      "mode": "100644",
+      "path": "Slicer-Server/HANDBUCH.md",
+      "sha256": "7ccbedc31d4143aae8a8b925ba28934c90f45610d5399a19151527faa1d620fe",
+      "source_path": "Slicer-Server/HANDBUCH.md"
+    },
+    {
       "bytes": 1779,
       "mode": "100644",
       "path": "Slicer-Server/HA_INSTALLATION_PLAN.md",
@@ -165,10 +179,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 5497,
+      "bytes": 14008,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "3bf58488a60740cd84483cb475ca1daf9f143b771fafccc4b7bf6cb5f59ad4e4",
+      "sha256": "5138bd79a8616b50912b09752841c6af119d0aabdaffaa700cde0ab349eadd05",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -256,10 +270,10 @@
       "source_path": "Slicer-Server/PROFILE_SOURCE_BUNDLE.json"
     },
     {
-      "bytes": 2189,
+      "bytes": 2721,
       "mode": "100644",
       "path": "Slicer-Server/README.md",
-      "sha256": "510972684f3ff04b9dd4c1e425f8be228bf1e1c54c97f5a6db2c31e15e9989ce",
+      "sha256": "48f97e8d6c884b795a0d4e09b9108677028619e46c3cf6c126d660b25f818f57",
       "source_path": "Slicer-Server/README.md"
     },
     {
@@ -277,17 +291,17 @@
       "source_path": "Slicer-Server/REPOSITORY_CONTENTS.md"
     },
     {
-      "bytes": 1770,
+      "bytes": 2233,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_NOTICES.md",
-      "sha256": "82fb0583243006ffa48e423c056756e3f39f6b55ab302dbe5fce9e41625d148d",
+      "sha256": "0cddae0364732a6b1a0535a3674a25c9b9c529cb440f8c560386518a2e3610f9",
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 4386,
+      "bytes": 8234,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "c57f7afbe3a70f82d5a9681d81b514043629f42d0938832ee30bd10ae0ac1423",
+      "sha256": "b0a0fe2eac158cd3a67de87cd39136b8727baffc7c0d8eabb742c25d3dd328b2",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -305,10 +319,10 @@
       "source_path": "Slicer-Server/RESTRICTED_INSTALLER.md"
     },
     {
-      "bytes": 9393,
+      "bytes": 14276,
       "mode": "100644",
       "path": "Slicer-Server/RUNTIME_INSTALLATION.md",
-      "sha256": "3878d2c5092eb7066d93ce1cfabace4761dc65d931d9c14bfbd61d8d46dd98d2",
+      "sha256": "2215a7b95fe40679ec84d0dca986c4e59bc28dd2102b97ebf705f66e77bc15c4",
       "source_path": "Slicer-Server/RUNTIME_INSTALLATION.md"
     },
     {
@@ -347,6 +361,34 @@
       "source_path": "Slicer-Server/THIRD_PARTY_NOTICES.md"
     },
     {
+      "bytes": 3256867,
+      "mode": "100644",
+      "path": "Slicer-Server/Ultimate_Slicer_Server_Handbuch.pdf",
+      "sha256": "34f7e16940f2c1bd5be50c2edd302388a078747dc28ba4a20a4763e4e9451ba1",
+      "source_path": "Slicer-Server/Ultimate_Slicer_Server_Handbuch.pdf"
+    },
+    {
+      "bytes": 4893,
+      "mode": "100644",
+      "path": "Slicer-Server/assets/ASSET_NOTICES.md",
+      "sha256": "acd9b0b10563424d4322781c866a4e88c606216a2014019382873efc073f26e5",
+      "source_path": "Slicer-Server/assets/ASSET_NOTICES.md"
+    },
+    {
+      "bytes": 1859625,
+      "mode": "100644",
+      "path": "Slicer-Server/assets/slicer-hero.png",
+      "sha256": "609635c3bd374a71055630c5dba683cb9baf59ec4396b8e5b2253058d6cb7850",
+      "source_path": "Slicer-Server/assets/slicer-hero.png"
+    },
+    {
+      "bytes": 1036818,
+      "mode": "100644",
+      "path": "Slicer-Server/assets/taracraft-mark.png",
+      "sha256": "d634ff5a1245ea09099f096f00c782c65386dbcfffd48ed182e59d3a88c8a401",
+      "source_path": "Slicer-Server/assets/taracraft-mark.png"
+    },
+    {
       "bytes": 12182,
       "mode": "100644",
       "path": "Slicer-Server/build_engine_bundle.py",
@@ -354,10 +396,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 15192,
+      "bytes": 15665,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "204adcd663711e83ee525f00ff6f1e5770212820bed5de2562ea5c5b94d981c3",
+      "sha256": "1f5e8f660fb5f152f3bcff39e794bf1d60b067886c801648ed787ffa717aebb4",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -606,95 +648,116 @@
       "source_path": "Slicer-Server/verify_test_server_package.py"
     },
     {
-      "bytes": 528,
+      "bytes": 3149,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Architektur.md",
-      "sha256": "65294c6c37adddb65f9a8fff818bd92050fb587b8b201efdbed74bccae9564ed",
+      "sha256": "5d305b760d194fe85eb19fc3800e54f4350fcddb20226a7083c366f28e5bd510",
       "source_path": "Slicer-Server/wiki/Architektur.md"
     },
     {
-      "bytes": 596,
+      "bytes": 3115,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Betrieb-und-Wiederherstellung.md",
-      "sha256": "c3d8080d9ae3cfd09ee853ea28e6bc4d3be4289fdb286a3a019f3913f436a5c0",
+      "sha256": "751090fd2dcbcf0773b086754933e419d0b98ad0a8f0e248423b5fb89089b33f",
       "source_path": "Slicer-Server/wiki/Betrieb-und-Wiederherstellung.md"
     },
     {
-      "bytes": 548,
+      "bytes": 2834,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Build-und-Tests.md",
-      "sha256": "1f0193ad3ab93b40a306c536dc372fde69a23a2b3d495a32f8a847e9f3a5aa1a",
+      "sha256": "c366aa14d75206aacb27666627467b3966ba6be51f9bcf1010f6c345fcccdf80",
       "source_path": "Slicer-Server/wiki/Build-und-Tests.md"
     },
     {
-      "bytes": 711,
+      "bytes": 2992,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Docker-Installation.md",
-      "sha256": "92ed98668b1fed9cf4a5645ce78ac7d77ec5ac48def7bb0845cdb18a6816e50d",
+      "sha256": "0da754c35125e7884e7150a411821b9ae0f2dae44e85421825787ce95385c537",
       "source_path": "Slicer-Server/wiki/Docker-Installation.md"
     },
     {
-      "bytes": 595,
+      "bytes": 2964,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Engine-Bestand.md",
-      "sha256": "2ac60f3b0e4f16a201ffdad559e9c0b3985614559d5c2a2882d23101cf20ca00",
+      "sha256": "7f9b27e4006d1a19607fd98de8c4ba8c5b2e6d4048116537e99d892c0f3d0d2c",
       "source_path": "Slicer-Server/wiki/Engine-Bestand.md"
     },
     {
-      "bytes": 629,
+      "bytes": 2967,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Entwicklungsstand.md",
-      "sha256": "0bf812d9a9c376da648d72cdad38215a6eea3e51d06084ec2462dc6f58db5480",
+      "sha256": "af25ad4eebdebd9cb9e231ce22e05d664b47a0a844b84f71e863d0d5660585d7",
       "source_path": "Slicer-Server/wiki/Entwicklungsstand.md"
     },
     {
-      "bytes": 661,
+      "bytes": 2942,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Fehlerdiagnose.md",
-      "sha256": "7089a744f2a4181d6a22c254c3fec63dac32df288da23e82a2743c63e6ecedf5",
+      "sha256": "84306d6fcdb7d31d41d50ec36f406a3c61e48cc436fb7ae8630d5064d31ebfff",
       "source_path": "Slicer-Server/wiki/Fehlerdiagnose.md"
     },
     {
-      "bytes": 598,
+      "bytes": 2914,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Home-Assistant.md",
-      "sha256": "ca5e25950005063059345441bd398693a93ce35e5636ff021b16d737a4d82766",
+      "sha256": "66b931891deef0c0312c2c5c2724199032359c5b773840f87b9672f626f8bcc5",
       "source_path": "Slicer-Server/wiki/Home-Assistant.md"
     },
     {
-      "bytes": 546,
+      "bytes": 2964,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Home.md",
-      "sha256": "4a4c411bcfdcdef90a74c52b6a998e52c5242aa8770423e0a8a7989b30f3265f",
+      "sha256": "b71ffd21dfc2e206ee77ecd8dbb8dfcf678fdc87a8293d1e5a2553cb5a0e1ed5",
       "source_path": "Slicer-Server/wiki/Home.md"
     },
     {
-      "bytes": 562,
+      "bytes": 2861,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Lizenz-und-Nutzung.md",
-      "sha256": "7a6bfccffccc59295d09edbfb8671109bee2341f6ee5f5e38cc889296a3e69a5",
+      "sha256": "f7e7309f57eddf16ab7fd8fb8caace6857a4779e9579dc90aa92067dad048be8",
       "source_path": "Slicer-Server/wiki/Lizenz-und-Nutzung.md"
     },
     {
-      "bytes": 555,
+      "bytes": 3009,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Profile-und-Engines.md",
-      "sha256": "83c8bf7c2adac58efd354a7a17d2191eb4de3503743e9d0af91666ea1f17f9ab",
+      "sha256": "0482e94e35c45f8c74daa3bbec306e74397e4fc0f1a458a8f49a47b05645e520",
       "source_path": "Slicer-Server/wiki/Profile-und-Engines.md"
     },
     {
-      "bytes": 514,
+      "bytes": 2992,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Quellumfang.md",
-      "sha256": "a2d4e1b45ce2ea3b386bc7de8f2152619113b071f5391ed96fdf90df185a80b4",
+      "sha256": "f938ea8bbd316ed2a3aec1f43b8fd5cbd7df04d45d82e41ed5ad3decbdb68335",
       "source_path": "Slicer-Server/wiki/Quellumfang.md"
     },
     {
-      "bytes": 537,
+      "bytes": 967,
       "mode": "100644",
       "path": "Slicer-Server/wiki/_Sidebar.md",
-      "sha256": "2e7f1e7b725492901fd709653993f786e51875283d3c06db7526bc049b7685b7",
+      "sha256": "8dd62aa39394894cd909c3d5ae09cac977305c75a67f4f2ee68a370719d09f0b",
       "source_path": "Slicer-Server/wiki/_Sidebar.md"
+    },
+    {
+      "bytes": 4893,
+      "mode": "100644",
+      "path": "assets/ASSET_NOTICES.md",
+      "sha256": "acd9b0b10563424d4322781c866a4e88c606216a2014019382873efc073f26e5",
+      "source_path": "Slicer-Server/assets/ASSET_NOTICES.md"
+    },
+    {
+      "bytes": 1859625,
+      "mode": "100644",
+      "path": "assets/slicer-hero.png",
+      "sha256": "609635c3bd374a71055630c5dba683cb9baf59ec4396b8e5b2253058d6cb7850",
+      "source_path": "Slicer-Server/assets/slicer-hero.png"
+    },
+    {
+      "bytes": 1036818,
+      "mode": "100644",
+      "path": "assets/taracraft-mark.png",
+      "sha256": "d634ff5a1245ea09099f096f00c782c65386dbcfffd48ed182e59d3a88c8a401",
+      "source_path": "Slicer-Server/assets/taracraft-mark.png"
     },
     {
       "bytes": 2223,
@@ -893,10 +956,10 @@
       "source_path": "packages/ultimate-slicer-server/LINUX_TESTING.md"
     },
     {
-      "bytes": 12046,
+      "bytes": 13553,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/README.md",
-      "sha256": "08089dac8417bec8757749a08f116a0dc7f7fa4d6d8be080db65b9d62b65e789",
+      "sha256": "dc4509e953515f5ac96fad5077eaba34c1d5c837023ae14fa369b0898d2911f9",
       "source_path": "packages/ultimate-slicer-server/README.md"
     },
     {
@@ -1259,10 +1322,10 @@
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 179,
+  "payload_files": 188,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 172
+  "source_paths": 178
 }
