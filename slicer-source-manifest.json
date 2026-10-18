@@ -508,10 +508,10 @@
       "source_path": "Slicer-Server/engine_catalog.json"
     },
     {
-      "bytes": 18789,
+      "bytes": 19374,
       "mode": "100644",
       "path": "Slicer-Server/engine_catalog.py",
-      "sha256": "ebe21c8af152fd3b95d5f7f7cfef9dfd1957d5e8714dd0b1ab857e53ad886bc1",
+      "sha256": "19d67c1659b7726015c9f71be43ed2ad6fc7a53073eb7542cfa974f2d9ded415",
       "source_path": "Slicer-Server/engine_catalog.py"
     },
     {
@@ -641,10 +641,10 @@
       "source_path": "Slicer-Server/prepare_test_server_package.py"
     },
     {
-      "bytes": 9243,
+      "bytes": 9244,
       "mode": "100644",
       "path": "Slicer-Server/publish_release.py",
-      "sha256": "b44c794a2495f13a863bb46a2410915365d6e466be7c1cc8e52bf9f8110a32a0",
+      "sha256": "cdc0f599e5b1d038adaeb6575b04da412d29e3b042d88914c7df8179b0a6af2b",
       "source_path": "Slicer-Server/publish_release.py"
     },
     {
@@ -1075,10 +1075,10 @@
       "source_path": "packages/ultimate-slicer-server/install_native.py"
     },
     {
-      "bytes": 53,
+      "bytes": 54,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/release.json",
-      "sha256": "f476e926c87e970d90cf0bf182ef9ca8e74889ad819e15dfc6024d3ed92a5411",
+      "sha256": "dec0034f251a992d42a531f92a0748e8d31227b3bca6f4a5996b1ff7f2060fe2",
       "source_path": "packages/ultimate-slicer-server/release.json"
     },
     {
@@ -1215,10 +1215,10 @@
       "source_path": "tests/test_studio_engine_bundle.py"
     },
     {
-      "bytes": 16084,
+      "bytes": 17537,
       "mode": "100644",
       "path": "tests/test_studio_engine_catalog.py",
-      "sha256": "724901dafe689da364260630dd91e2cfac7d0fa3ba69e650b45f38dad957adbc",
+      "sha256": "6b7d05ba5c200abf87d0029d6ab24e13070fdb1760bcc72f3b608db62c358277",
       "source_path": "tests/test_studio_engine_catalog.py"
     },
     {
