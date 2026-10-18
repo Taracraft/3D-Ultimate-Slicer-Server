@@ -39,10 +39,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 8880,
+      "bytes": 9106,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "8e029d8d848af910fb8a18b9fbf7ad545249c77a0b0639bb864a629d7049b8ec",
+      "sha256": "4f7045d311dda6f491f46e0a9c3fb0ad19b5e0868b2c1e46bc79021f88eaa0a3",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 14008,
+      "bytes": 14808,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "5138bd79a8616b50912b09752841c6af119d0aabdaffaa700cde0ab349eadd05",
+      "sha256": "c53730bd366c5e2daf0ed70184aaff8c6cec888f3fb0c18059f4e687fe8869a5",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -277,17 +277,17 @@
       "source_path": "Slicer-Server/PROFILE_SOURCE_BUNDLE.json"
     },
     {
-      "bytes": 2721,
+      "bytes": 3926,
       "mode": "100644",
       "path": "Slicer-Server/README.md",
-      "sha256": "48f97e8d6c884b795a0d4e09b9108677028619e46c3cf6c126d660b25f818f57",
+      "sha256": "5ac43795a01d33480526184a554d9b15dee0dc49397f7bb320dbf11da00c91ca",
       "source_path": "Slicer-Server/README.md"
     },
     {
-      "bytes": 3525,
+      "bytes": 3583,
       "mode": "100644",
       "path": "Slicer-Server/RELEASE_STATUS.md",
-      "sha256": "4600c001c177ab874864f364904f6231a02d748ebf139693a1cd5cf00e0ee961",
+      "sha256": "4c4f5f50fef0799b31d2fbd835816e8608aafe5a584ab1583ccf0b73ba7928e0",
       "source_path": "Slicer-Server/RELEASE_STATUS.md"
     },
     {
@@ -305,10 +305,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 8880,
+      "bytes": 9106,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "8e029d8d848af910fb8a18b9fbf7ad545249c77a0b0639bb864a629d7049b8ec",
+      "sha256": "4f7045d311dda6f491f46e0a9c3fb0ad19b5e0868b2c1e46bc79021f88eaa0a3",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -760,10 +760,10 @@
       "source_path": "Slicer-Server/wiki/Engine-Bestand.md"
     },
     {
-      "bytes": 4319,
+      "bytes": 5075,
       "mode": "100644",
       "path": "Slicer-Server/wiki/Entwicklungsstand.md",
-      "sha256": "3aa2ea84655eb713b022bf7908327c8f9a9bc0764c772c8ba23ace052b29b5a3",
+      "sha256": "fe331bd22834e97268d3b26099b992d96e66c12541558346e1eb33b1c5af6679",
       "source_path": "Slicer-Server/wiki/Entwicklungsstand.md"
     },
     {
