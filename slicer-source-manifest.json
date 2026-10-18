@@ -39,10 +39,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 9106,
+      "bytes": 10686,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "4f7045d311dda6f491f46e0a9c3fb0ad19b5e0868b2c1e46bc79021f88eaa0a3",
+      "sha256": "30f16cd9724ecb242e624e63b3cd00c41aa194f509029b68e95f669ec42d1f37",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 14808,
+      "bytes": 26479,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "c53730bd366c5e2daf0ed70184aaff8c6cec888f3fb0c18059f4e687fe8869a5",
+      "sha256": "50bd3a704355007ccff388d0be037f8a935bf1d10a681144eb9f717d25891e49",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -305,10 +305,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 9106,
+      "bytes": 10686,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "4f7045d311dda6f491f46e0a9c3fb0ad19b5e0868b2c1e46bc79021f88eaa0a3",
+      "sha256": "30f16cd9724ecb242e624e63b3cd00c41aa194f509029b68e95f669ec42d1f37",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
