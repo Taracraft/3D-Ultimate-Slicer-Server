@@ -39,10 +39,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 11070,
+      "bytes": 11097,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "acbeb60f4117522e98ad6c2b33a32f4706820d2240a87fe1fb20f4c9a73b79d8",
+      "sha256": "56cf1c1c008c4873b0b17f7057db21020e491429a5e2b166577cdbe21bb8f548",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -53,10 +53,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 410,
+      "bytes": 442,
       "mode": "100644",
       "path": "Slicer-Server/.dockerignore",
-      "sha256": "2898a02781c6bb2c367b785fa25fb45282a94840d33e8383a34de42696ef3961",
+      "sha256": "75bc193d9692310fc5c604ae73585c807f2a74c485f3acc6c8ba5dbc920a04ba",
       "source_path": "Slicer-Server/.dockerignore"
     },
     {
@@ -95,10 +95,10 @@
       "source_path": "Slicer-Server/DOCKER_QUICKSTART.md"
     },
     {
-      "bytes": 3116,
+      "bytes": 3148,
       "mode": "100644",
       "path": "Slicer-Server/Dockerfile",
-      "sha256": "a268e917f65853be57e17ad3f51790603ac08530bc6fd77801a2fcfd3079bcfd",
+      "sha256": "babf7aad9f05a53ed7f45bb6752694f0f1d4bffb4a959f01e7235bce35a7583a",
       "source_path": "Slicer-Server/Dockerfile"
     },
     {
@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 25042,
+      "bytes": 25069,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "6c9cd50aa41c17968373c0c864c8de432c1951c6e19c1c5cc10ee0f46adf63ce",
+      "sha256": "0bbca53d82426616253a18f0d05c7a5788d315ed1fa50c824445ff3bf8f99200",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -305,10 +305,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 11070,
+      "bytes": 11097,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "acbeb60f4117522e98ad6c2b33a32f4706820d2240a87fe1fb20f4c9a73b79d8",
+      "sha256": "56cf1c1c008c4873b0b17f7057db21020e491429a5e2b166577cdbe21bb8f548",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -371,7 +371,7 @@
       "bytes": 2789,
       "mode": "100644",
       "path": "Slicer-Server/TARGET_IMAGE_REFERENCE.json",
-      "sha256": "f741c0b68ed38c0fa63f8547bec5328538e5e41613808e11ca53e16ad76e20f3",
+      "sha256": "a25ec0ab8c78e95763aa8639ee07089eeb16cf81fff7f3b744dd3bb1cf2825d1",
       "source_path": "Slicer-Server/TARGET_IMAGE_REFERENCE.json"
     },
     {
@@ -1061,10 +1061,10 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/systemd/3d-printer-slicing-server.service"
     },
     {
-      "bytes": 10973,
+      "bytes": 11000,
       "mode": "100644",
       "path": "docs/GUIDED_SETUP.md",
-      "sha256": "8b72ef1e0abf206abe4c16a37e909a8ae81210c4d19a9cc645baa5acc6528f67",
+      "sha256": "f96fb92b5292f4ab07fe44db1cd046ed84ffc52997281a23381d095ebbf5567f",
       "source_path": "docs/GUIDED_SETUP.md"
     },
     {
@@ -1236,10 +1236,10 @@
       "source_path": "tests/test_studio_container_maintenance.py"
     },
     {
-      "bytes": 22479,
+      "bytes": 23548,
       "mode": "100644",
       "path": "tests/test_studio_docker_context.py",
-      "sha256": "61b9252b13d41252db096950e0e599ecf37ef8c2403e20808a191278359b413e",
+      "sha256": "8e64564d4f2bdc43efccab092de43bd0ee97e06dfa2b8efb5daba2dc6ae52971",
       "source_path": "tests/test_studio_docker_context.py"
     },
     {
