@@ -39,10 +39,10 @@
       "source_path": "Slicer-Server/licenses/MIT-Studio.txt"
     },
     {
-      "bytes": 10535,
+      "bytes": 11070,
       "mode": "100644",
       "path": "README.md",
-      "sha256": "434e5fb2e493ee9506fe709a72c8553f1457044792dad3ccf5db188415035f5f",
+      "sha256": "acbeb60f4117522e98ad6c2b33a32f4706820d2240a87fe1fb20f4c9a73b79d8",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 24560,
+      "bytes": 25042,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "919df2f0569f3e610f599d13302ac0577b5542f68d1a6e2e20a6ae9bca4754f5",
+      "sha256": "6c9cd50aa41c17968373c0c864c8de432c1951c6e19c1c5cc10ee0f46adf63ce",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -256,10 +256,10 @@
       "source_path": "Slicer-Server/PACKAGE_STAGING.md"
     },
     {
-      "bytes": 54602,
+      "bytes": 57459,
       "mode": "100644",
       "path": "Slicer-Server/PAYLOAD_PROVENANCE.json",
-      "sha256": "cc245a19cf17b84cfa93e2eb79833c034f37e9396f53456f78931b8b7b03c7bb",
+      "sha256": "1e3c9da18f470bb2679541f2df2f980976a46e61a66bb08c608bad3d527a716e",
       "source_path": "Slicer-Server/PAYLOAD_PROVENANCE.json"
     },
     {
@@ -270,17 +270,17 @@
       "source_path": "Slicer-Server/PERSISTENT_PROFILES.md"
     },
     {
-      "bytes": 271594,
+      "bytes": 886374,
       "mode": "100644",
       "path": "Slicer-Server/PROFILE_SOURCE_BUNDLE.json",
-      "sha256": "b7ecec0be50f76e4bb4ed85df68f88f28bc34ff34f42a754a3cbdddf9796fa1f",
+      "sha256": "a8a33210d3825e94c5b5b97d958a62a01e2140c7263ec8ba03072a74acff35b9",
       "source_path": "Slicer-Server/PROFILE_SOURCE_BUNDLE.json"
     },
     {
-      "bytes": 3926,
+      "bytes": 4005,
       "mode": "100644",
       "path": "Slicer-Server/README.md",
-      "sha256": "5ac43795a01d33480526184a554d9b15dee0dc49397f7bb320dbf11da00c91ca",
+      "sha256": "fae1c6b10f69dc8f11bf3620395f630f32eda542bf3f320e08f4cee7a691cf1f",
       "source_path": "Slicer-Server/README.md"
     },
     {
@@ -305,10 +305,10 @@
       "source_path": "Slicer-Server/REPOSITORY_NOTICES.md"
     },
     {
-      "bytes": 10535,
+      "bytes": 11070,
       "mode": "100644",
       "path": "Slicer-Server/REPOSITORY_README.md",
-      "sha256": "434e5fb2e493ee9506fe709a72c8553f1457044792dad3ccf5db188415035f5f",
+      "sha256": "acbeb60f4117522e98ad6c2b33a32f4706820d2240a87fe1fb20f4c9a73b79d8",
       "source_path": "Slicer-Server/REPOSITORY_README.md"
     },
     {
@@ -424,10 +424,10 @@
       "source_path": "Slicer-Server/build_engine_bundle.py"
     },
     {
-      "bytes": 16689,
+      "bytes": 17102,
       "mode": "100644",
       "path": "Slicer-Server/build_repository.py",
-      "sha256": "d0a1cee365ab7a92ce41e30c8af093c1772b6e87f8fbf50ba71855068a245dfc",
+      "sha256": "756b3ecde6bc6e244c74610fc819d35fa8e4a5c175ebbc90df624fab459d9ee6",
       "source_path": "Slicer-Server/build_repository.py"
     },
     {
@@ -480,10 +480,10 @@
       "source_path": "Slicer-Server/container_runtime.py"
     },
     {
-      "bytes": 25546,
+      "bytes": 29935,
       "mode": "100644",
       "path": "Slicer-Server/container_service.py",
-      "sha256": "e86332fc11be99ef54b7582cc5bb8e460f90abcd247c32b5e13059b1092b76bd",
+      "sha256": "f76d4efd492fde4462d324dfd8cd3d8779925fb6ad98c82ed9a562994bdaba7a",
       "source_path": "Slicer-Server/container_service.py"
     },
     {
@@ -578,6 +578,13 @@
       "source_path": "Slicer-Server/linux_test_evidence.py"
     },
     {
+      "bytes": 2867,
+      "mode": "100644",
+      "path": "Slicer-Server/materialize_profile_sources.py",
+      "sha256": "6ac4eb245b5ba969e2dae46f2efccdf2ee7c15797267f32bc76be51b8f00dbd8",
+      "source_path": "Slicer-Server/materialize_profile_sources.py"
+    },
+    {
       "bytes": 29174,
       "mode": "100644",
       "path": "Slicer-Server/package_activation.py",
@@ -606,10 +613,10 @@
       "source_path": "Slicer-Server/prepare_catalog_selection.py"
     },
     {
-      "bytes": 10564,
+      "bytes": 10695,
       "mode": "100644",
       "path": "Slicer-Server/prepare_context.py",
-      "sha256": "03e20b7f3893735120fdb6b86c71c0afa46d252d39b5f1d2e0a75f1b154a6ffa",
+      "sha256": "03bb56dc23998d02dec7c048dd795ba1927289f89f03459526e88d5db3aa82b2",
       "source_path": "Slicer-Server/prepare_context.py"
     },
     {
@@ -641,10 +648,10 @@
       "source_path": "Slicer-Server/prepare_test_server_package.py"
     },
     {
-      "bytes": 9244,
+      "bytes": 9245,
       "mode": "100644",
       "path": "Slicer-Server/publish_release.py",
-      "sha256": "cdc0f599e5b1d038adaeb6575b04da412d29e3b042d88914c7df8179b0a6af2b",
+      "sha256": "76598fca02c127ca1955c09b43171b96281f670f8c47f1af3a91b6959bf4a9a9",
       "source_path": "Slicer-Server/publish_release.py"
     },
     {
@@ -711,10 +718,10 @@
       "source_path": "Slicer-Server/verify_image_evidence.py"
     },
     {
-      "bytes": 10658,
+      "bytes": 11830,
       "mode": "100644",
       "path": "Slicer-Server/verify_profile_sources.py",
-      "sha256": "10dfda0af122ba189d07fd592fb525ac5e02dbdd6b091e85143422c4693cb638",
+      "sha256": "1ecb0f9a16061fd8c146827a27389e3c9062d1cfc8edcac29619d1a3f3fe7961",
       "source_path": "Slicer-Server/verify_profile_sources.py"
     },
     {
@@ -851,17 +858,17 @@
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/bed-temperature-contract.sh"
     },
     {
-      "bytes": 13280,
+      "bytes": 13450,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/filament_parameter_contract.py",
-      "sha256": "3ff4b0cc265105e8c3e3ec46c74e2db9ca3665d75c64c55682fe9f14ad0d63f9",
+      "sha256": "aa6b08a24b76ed0bffbf271772646bafe94a73cb9eda03699c1f37ad3c3833ac",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/filament_parameter_contract.py"
     },
     {
-      "bytes": 28695,
+      "bytes": 31372,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/gcode_artifact_validation.py",
-      "sha256": "07042f237cb303f52f106274ccc66927ba96464c985516bec90becd635de74d7",
+      "sha256": "aee716cc01b0e25c70b801e1a2e6584484a421b4a8cde46072abd8f97957d5f1",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/gcode_artifact_validation.py"
     },
     {
@@ -872,17 +879,17 @@
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/h2s_native_defaults.json"
     },
     {
-      "bytes": 4369,
+      "bytes": 4722,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/materialize-bambu-machine.py",
-      "sha256": "74540729dc4dded0f8ad750b7690199a0da53fdba3f091b5c4361eb2cc2429d1",
+      "sha256": "cdbf69b11b26045d75c73a72d92d8e36a90cef28080ea3d4b96ff665de6aa525",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/materialize-bambu-machine.py"
     },
     {
-      "bytes": 46692,
+      "bytes": 47405,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/materialize-bambu-multimaterial.py",
-      "sha256": "821ac3f47d2c589d11f3678f40435c3398059de213da0507402a7bbb2f9fd4b4",
+      "sha256": "571de279233687fdb5c996b8fbdab05318b81be5f2a18bb48a427ceee278e721",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/materialize-bambu-multimaterial.py"
     },
     {
@@ -893,17 +900,17 @@
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/native_filament_defaults.json"
     },
     {
-      "bytes": 1270,
+      "bytes": 2402,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/printer_model_contract.py",
-      "sha256": "bf63acf05d232316e9ddcb436b3121ec4d18d4ea031e06fa420f1abe61404a27",
+      "sha256": "6a39dd8053329db742140c166c3540305737744d6896d748a43d0c73854c96fc",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/printer_model_contract.py"
     },
     {
-      "bytes": 7572,
+      "bytes": 7893,
       "mode": "100644",
       "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/slicer_execution_contract.py",
-      "sha256": "377ed6077f594758a803459e0729588f32ba0c7f6de4c60ce93015998278a12c",
+      "sha256": "e049c3856ca532b95606a25b4b70737691c1dfb027ed8edc1f5ddceeb79b8dae",
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/slicer_execution_contract.py"
     },
     {
@@ -914,17 +921,24 @@
       "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/three_mf_mesh_graph.py"
     },
     {
-      "bytes": 1026,
+      "bytes": 2199798,
+      "mode": "100644",
+      "path": "deploy/homeassistant/custom_components/ultimate_3d_studio/x1c_native_defaults.json",
+      "sha256": "c5a7c124103edeecb7709fcd24b7a07b92ccb7e2b70a98d662511f0372801496",
+      "source_path": "deploy/homeassistant/custom_components/ultimate_3d_studio/x1c_native_defaults.json"
+    },
+    {
+      "bytes": 1129,
       "mode": "100644",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/DEPENDENCY-SHA256SUMS",
-      "sha256": "d8b04265ef96f9cebe6c72f051891d301c20c7c1caa024e73a9e6e098f440610",
+      "sha256": "4aaab80d8155de943aa31eb25a3398f6fe1bb480f5e81f2efd0ea7cf2b1114dd",
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/DEPENDENCY-SHA256SUMS"
     },
     {
-      "bytes": 1264,
+      "bytes": 1473,
       "mode": "100644",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/SHA256SUMS",
-      "sha256": "ed61d37d73d9ff1ed5e9f5206fac9ccb47a534bb6f9102ca0f0e08598e55c2d3",
+      "sha256": "1a6bc36f9d3d3349e36d9b29c3f844da9d5980418f848315fb186f8c321807a6",
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/SHA256SUMS"
     },
     {
@@ -942,6 +956,13 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/bambu_lab_h2s_04.json"
     },
     {
+      "bytes": 526,
+      "mode": "100644",
+      "path": "deploy/homeassistant/host/3d-printer-slicing-server/bambu_lab_x1c_04.json",
+      "sha256": "d15235abdebf86742fb57a7d587512517b6a735f89db299880a2159104d341ef",
+      "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/bambu_lab_x1c_04.json"
+    },
+    {
       "bytes": 20768,
       "mode": "100755",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/deploy-native-slicer.sh",
@@ -949,10 +970,10 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/deploy-native-slicer.sh"
     },
     {
-      "bytes": 24165,
+      "bytes": 25403,
       "mode": "100755",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/dispatch-job.sh",
-      "sha256": "33c164b2badde2055cb29cbb7feadd04ce07b9fb27f325e522bf263032b207ef",
+      "sha256": "ce033fc47ee0b072c7c4cd47463f12da3b2d4a4444db6e2f3a4c93fffd44cd24",
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/dispatch-job.sh"
     },
     {
@@ -977,6 +998,13 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/profiles/printers/bambu_lab_h2s_04.json"
     },
     {
+      "bytes": 526,
+      "mode": "100644",
+      "path": "deploy/homeassistant/host/3d-printer-slicing-server/profiles/printers/bambu_lab_x1c_04.json",
+      "sha256": "d15235abdebf86742fb57a7d587512517b6a735f89db299880a2159104d341ef",
+      "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/profiles/printers/bambu_lab_x1c_04.json"
+    },
+    {
       "bytes": 8569,
       "mode": "100644",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/progress-pipe-reader.py",
@@ -991,10 +1019,10 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/refresh-state.sh"
     },
     {
-      "bytes": 41924,
+      "bytes": 43076,
       "mode": "100644",
       "path": "deploy/homeassistant/host/3d-printer-slicing-server/server.py",
-      "sha256": "8851fa8dafc40e6994ddfff7b75dc2a43fc018456f78b9fb980e5472fd4bdb12",
+      "sha256": "ee114a76ae263a9c78abc83378186fb446f367b182b9b3da6e5f109fadcd5013",
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/server.py"
     },
     {
@@ -1033,6 +1061,27 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/systemd/3d-printer-slicing-server.service"
     },
     {
+      "bytes": 10973,
+      "mode": "100644",
+      "path": "docs/GUIDED_SETUP.md",
+      "sha256": "8b72ef1e0abf206abe4c16a37e909a8ae81210c4d19a9cc645baa5acc6528f67",
+      "source_path": "docs/GUIDED_SETUP.md"
+    },
+    {
+      "bytes": 11524,
+      "mode": "100644",
+      "path": "docs/X1C_SETUP.md",
+      "sha256": "b0dca6c79d8bfad21bbdafce64b5e0a7cb894af6ddf7a6ac2e4a640d783407c1",
+      "source_path": "docs/X1C_SETUP.md"
+    },
+    {
+      "bytes": 995,
+      "mode": "100644",
+      "path": "docs/branding/studio-mark.svg",
+      "sha256": "eaaf77a064801cce51debb6734d513cb71238c053262a731a38bd38d16966537",
+      "source_path": "docs/branding/studio-mark.svg"
+    },
+    {
       "bytes": 3201,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/LINUX_TESTING.md",
@@ -1047,10 +1096,10 @@
       "source_path": "packages/ultimate-slicer-server/README.md"
     },
     {
-      "bytes": 8953,
+      "bytes": 9080,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/build_native_package.py",
-      "sha256": "39657fc1a6d4600f64263069c9ca7b76c41a5da8d8c8eb1d785faaf7c0a741b2",
+      "sha256": "2ff69c6e939ad38fa16f55dda1001e500f2f531dba9222fede948fa6da741558",
       "source_path": "packages/ultimate-slicer-server/build_native_package.py"
     },
     {
@@ -1078,7 +1127,7 @@
       "bytes": 54,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/release.json",
-      "sha256": "dec0034f251a992d42a531f92a0748e8d31227b3bca6f4a5996b1ff7f2060fe2",
+      "sha256": "7a1dd4077dab505466884f64d09a532792cb0fe099ba3b6717d981fac1c7cde9",
       "source_path": "packages/ultimate-slicer-server/release.json"
     },
     {
@@ -1187,10 +1236,10 @@
       "source_path": "tests/test_studio_container_maintenance.py"
     },
     {
-      "bytes": 22972,
+      "bytes": 22479,
       "mode": "100644",
       "path": "tests/test_studio_docker_context.py",
-      "sha256": "20042266f42632909b7d953263f6c637c37a458fdd4c8be19619965e4c84e13f",
+      "sha256": "61b9252b13d41252db096950e0e599ecf37ef8c2403e20808a191278359b413e",
       "source_path": "tests/test_studio_docker_context.py"
     },
     {
@@ -1306,10 +1355,10 @@
       "source_path": "tests/test_studio_native_install_transaction.py"
     },
     {
-      "bytes": 17602,
+      "bytes": 17603,
       "mode": "100644",
       "path": "tests/test_studio_native_installer.py",
-      "sha256": "464adad13f03fc56f6e0f2c25192346c1c015f61187196306b97c09a5b3e920e",
+      "sha256": "6df064c82e5b473f91fcb8e46203c3fcdca65c3bbe9f9d0b2f19466bd78f58e3",
       "source_path": "tests/test_studio_native_installer.py"
     },
     {
@@ -1327,10 +1376,10 @@
       "source_path": "tests/test_studio_native_network_namespace_contract.py"
     },
     {
-      "bytes": 3536,
+      "bytes": 3537,
       "mode": "100644",
       "path": "tests/test_studio_native_package.py",
-      "sha256": "820a866da26a449e3dd9469616b5b46fd103e17080b843b2cd1696a1fea46f68",
+      "sha256": "dea0dfbeb91b37453e84b20d6bf4fe54556159e12412307b8c86bc0c878973b6",
       "source_path": "tests/test_studio_native_package.py"
     },
     {
@@ -1383,10 +1432,10 @@
       "source_path": "tests/test_studio_pairing_registry.py"
     },
     {
-      "bytes": 9950,
+      "bytes": 12571,
       "mode": "100644",
       "path": "tests/test_studio_profile_sources.py",
-      "sha256": "96edae0ba4ad0818a56727cbea34a69092c9642211ef0012a7afa5972e2f87ad",
+      "sha256": "eca75d758c51efa3f7fcc5693fb477bdc1de713c8e612aba2c644fff3bceeafe",
       "source_path": "tests/test_studio_profile_sources.py"
     },
     {
@@ -1453,19 +1502,19 @@
       "source_path": "tests/test_studio_target_image_sbom.py"
     },
     {
-      "bytes": 24182,
+      "bytes": 24183,
       "mode": "100644",
       "path": "tests/test_studio_testserver_package.py",
-      "sha256": "a4ddba67c8cc73e0d9f7c98cdf23efbd312d4e89a992359fed569b98e747400a",
+      "sha256": "4fd8064c4f21cb7fbfefa836fb065022e763361712efedc596c30267d63fb0e9",
       "source_path": "tests/test_studio_testserver_package.py"
     }
   ],
   "github_wiki_published": false,
   "native_deploy_ready": false,
-  "payload_files": 208,
+  "payload_files": 215,
   "private_runtime_data_included": false,
   "production_approved": false,
   "schema": 1,
   "scope": "complete reviewed component source and build/test dependency closure",
-  "source_paths": 196
+  "source_paths": 203
 }
