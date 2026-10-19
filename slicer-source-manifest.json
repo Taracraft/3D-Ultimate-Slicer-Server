@@ -186,10 +186,10 @@
       "source_path": "Slicer-Server/IMAGE_EVIDENCE.md"
     },
     {
-      "bytes": 25603,
+      "bytes": 27354,
       "mode": "100644",
       "path": "Slicer-Server/INSTALLATION.md",
-      "sha256": "e4b514359484ad62d76713861ef1235dacb1a5d14bf04801147d51b2eebf8a4f",
+      "sha256": "346c689347d8c532bb3ff9610c2cf4f89b9aad7139f53e6b71b543537d890834",
       "source_path": "Slicer-Server/INSTALLATION.md"
     },
     {
@@ -651,7 +651,7 @@
       "bytes": 9245,
       "mode": "100644",
       "path": "Slicer-Server/publish_release.py",
-      "sha256": "17ba9e754ceecd5a24f26132d34bff1161aedd306afe3b4e71bebf45e3af65df",
+      "sha256": "63873657a414d45f3b726398c1d3cae348099f746da6647d8af85ea29033e01a",
       "source_path": "Slicer-Server/publish_release.py"
     },
     {
@@ -1061,10 +1061,10 @@
       "source_path": "deploy/homeassistant/host/3d-printer-slicing-server/systemd/3d-printer-slicing-server.service"
     },
     {
-      "bytes": 11534,
+      "bytes": 13107,
       "mode": "100644",
       "path": "docs/GUIDED_SETUP.md",
-      "sha256": "3e478d7728b67796a85675f80f489009972ca23c50e8fb0d98f38d3cfdcda4b8",
+      "sha256": "c557c055dada13af1f8a8a01ed00280341e381718355bab6da913aad7debac62",
       "source_path": "docs/GUIDED_SETUP.md"
     },
     {
@@ -1127,7 +1127,7 @@
       "bytes": 54,
       "mode": "100644",
       "path": "packages/ultimate-slicer-server/release.json",
-      "sha256": "edfb04823cc74d310b0078be7a76f04f577d74b820b83d55ac30514c69c64dcb",
+      "sha256": "2c7fdd1537478e3f59f3623b1bc65e5b47edbc65174bf8e0a2f4fedd59333e32",
       "source_path": "packages/ultimate-slicer-server/release.json"
     },
     {
